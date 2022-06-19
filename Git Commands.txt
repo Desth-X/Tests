@@ -1,0 +1,9 @@
+git init
+git add .
+git commit -m "msg"
+git branch -M branch-name
+git remote add origin url
+git push -u origin branch
+
+-------------------------
+git pull origin branch --rebase
